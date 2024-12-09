@@ -1,0 +1,114 @@
+<div class="row">
+  <div class="col">
+    <div class="container">
+      <h2>Student List</h2>
+    
+      <div class="card-body">
+        <div class="row">
+            <div class="col-12">
+      <table class="table tblwidth">
+        <thead>
+          <tr>
+            <th>SrNo.</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>Father Name</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+  
+          @for (student of stdList; track $index) {
+  
+            <tr>
+              <td>{{$index+1}}</td>
+              <td>{{ student.id }}</td>
+              <td>{{ student.studentName }}</td>
+              <td>{{  student.studentGender }}</td>
+              <td>{{ student.age }}</td>
+              <td>{{ student.grade }}</td>
+              <td>{{ student.fatherName }}</td>
+              <td>
+                <button class="btn btn-primary me-2" (click)="onEdit(student)">Edit</button>
+                <button class="btn btn-danger" (click)="onDelete(student.id)">Delete</button>
+              </td>
+            </tr>
+  
+          }
+          
+        </tbody>
+      </table>
+      </div>
+      </div>
+      </div>
+      </div>
+  </div>
+
+
+
+
+
+  <div class="col">
+      <div class="card">
+          <div class="card-header bg-secondary text-white">
+              Student Action
+          </div>
+          <div class="card-body">
+              <div class="row">
+                  <div class="col-12">
+
+                  </div>
+                  <div class="col-12">
+                      <label for="">Student Name</label>
+                      <input type="text" [(ngModel)]="studObj.studentName" class="form-control"
+                          placeholder="enter student name">
+                  </div>
+
+                  <div class="col-12">
+                    <label for="">Student Gender</label>
+                    <select class="form-select" [(ngModel)]="studObj.studentGender">
+                      <option value="">Select Gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                  <div class="col-12">
+                    <label for="">Student Age</label>
+                    <input type="text" [(ngModel)]="studObj.age" class="form-control"
+                        placeholder="enter age">
+                </div>
+
+                <div class="col-12">
+                  <label for="">Grade</label>
+                  <input type="text" [(ngModel)]="studObj.grade" class="form-control"
+                      placeholder="enter grade">
+              </div>
+
+                <div class="col-12">
+                  <label for="">Father Name</label>
+                  <input type="text" [(ngModel)]="studObj.fatherName" class="form-control"
+                      placeholder="enter fathername">
+              </div>
+
+              </div>
+              <div class="row pt-3">
+                <div class="col-6 text-center">
+                  <button class="btn btn-secondary">Reset</button>
+              </div>
+                  <div class="col-6 text-center"> 
+                     @if(studObj.id == 0){
+                      <button class="btn btn-success" (click)="onSave()" >Save</button>
+                     }@else(){
+                      <button class="btn btn-warning" (click)="onUpdate(studObj.id)">Update</button>
+                     }
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  </div>

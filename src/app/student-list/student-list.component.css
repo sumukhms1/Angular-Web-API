@@ -1,0 +1,14 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container{
+    width: 850px;
+    margin-right: 10px;
+}
+
+.card{
+    width: 500px;
+    margin-top: 80px;
+}

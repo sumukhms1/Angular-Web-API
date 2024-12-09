@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|c:\\users\\kavya\\desktop\\.netcore\\aspcorewebapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|c:\\users\\kavya\\desktop\\.netcore\\aspcorewebapicrud\\controllers\\studentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|solutionrelative:controllers\\studentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|c:\\users\\kavya\\desktop\\.netcore\\aspcorewebapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|c:\\users\\kavya\\desktop\\.netcore\\aspcorewebapicrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|c:\\users\\kavya\\desktop\\.netcore\\aspcorewebapicrud\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4F6B42-920C-4E54-A6FA-63822B88F92B}|ASPCoreWebAPICRUD.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 333,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:21:48.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:52:22.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T16:24:50.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:23:34.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Controllers\\StudentAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentAPIController.cs",
+              "ToolTip": "C:\\Users\\Kavya\\Desktop\\.NetCore\\ASPCoreWebAPICRUD\\Controllers\\StudentAPIController.cs",
+              "RelativeToolTip": "Controllers\\StudentAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:06:18.705Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
